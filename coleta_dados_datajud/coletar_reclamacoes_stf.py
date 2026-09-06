@@ -81,7 +81,7 @@ BASE_URL = f"https://api-publica.datajud.cnj.jus.br/{TRIBUNAL}/_search"
 # Chave pública documentada pelo CNJ (mesma para todos os usuários).
 # CONFIRA em https://datajud-wiki.cnj.jus.br/api-publica/acesso/ antes de
 # rodar em volume — o CNJ já revogou/trocou essa chave no passado.
-API_KEY_PADRAO = "APIKey cDZHYzlZa0JadVREZDJCendQbXY6SkJlTzNjLV9TRENyQk1RdnFKZGRHdw=="
+API_KEY_PADRAO = "APIKey cDZHYzlZa0JadVREZDJCendQbXY6SkJlTzNjLV9TRENyQk1RdnFKZGRQdw=="
 
 OUT_DIR = Path(__file__).parent / "dados_brutos_datajud"
 CHECKPOINT_FILE = OUT_DIR / "_checkpoint.json"
